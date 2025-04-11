@@ -1,0 +1,194 @@
+body {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+ .container {
+    text-align: center;
+ }
+label {
+    font-size: 30px;
+    text-align: center;
+}
+.Output{
+    background-color: rgba(0, 0, 0, 0.973);
+    text-align: center;
+    padding: 10px 11px;
+    height: 30px;
+    width: 230px;
+    color: white;
+    margin-left: 770px;
+}
+.space {
+    margin-left: 650px;
+    gap: 90px;
+    display: flex;
+    flex-direction: row;
+}
+input {
+    font-size: 20px;
+}
+#btn {
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.699);
+}
+#Naira {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px;
+}
+.double {
+    display: flex;
+    flex-direction: row;
+    margin-left: 750px;
+}
+.double input {
+    height: 40px;
+    width: 200px;
+}
+#Dollar {
+    height: 40px;
+    width: 200px;
+    box-shadow: 0px 1px 10px;
+    border-radius: 5px;
+}
+.links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.space-Euro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 620px;
+    gap: 50px;
+}
+.space-Euro input {
+    height: 40px;
+    width: 290px;
+}
+.double {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 600px;
+}
+.double input {
+    height: 40px;
+    width: 200px;
+}
+#EuroNum {
+    height: 40px;
+    width: 200px;
+}
+#Euro {
+    height: 40px;
+    width: 200px;
+}
+.links-item button:hover {
+    cursor: pointer;
+}
+.links-item button {
+    height: 43px;
+    box-shadow: black 1px 0px 10px;
+    font-size: 20px;
+    width: 200px;
+}
+#btn3 {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#btn4 {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#Pound {
+    height: 50px;
+    width: 200px;
+}
+#btn2 {
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.699);
+    font-size: 20px;
+    cursor: pointer;
+}
+#Naira2 {
+    height: 50px;
+    width: 200px;
+}
+.space-pound {
+    display: flex;
+    flex-direction: row;
+    margin-left: 620px;
+    gap: 60px;
+}
+.space-pound input {
+    height: 40px;
+    width: 200px;
+    
+}
+Header {
+    background-color: rgba(0, 0, 0, 0.973);
+    font-size: 40px;
+    color: white;
+    height: 200px;
+    padding-left: 40px;
+    text-align: center;
+}
+.Output-Euro {
+    height: 40px;
+    width: 290px;
+    background-color: rgba(0, 0, 0, 0.973);
+    margin-left: 710px;
+}
+marquee {
+    font-size: 40px;
+}
+:placeholder-shown {
+    font-size: 20px;
+}
+.slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s ease-out forwards ;
+    
+}
+
+
+.slide-in2 {
+    transform: translateX(-100%);
+    animation: slideIn2 2s ease-out forwards ;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes slideIn2 {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
